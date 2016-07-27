@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.8)  27 JUL 2016 14:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.8)  27 JUL 2016 15:43
 entering extended mode
 **./rsc_art.tex
 (rsc_art.tex
@@ -883,54 +883,64 @@ File: images/sdvb.png Graphic file (type png)
 <use images/sdvb.png>
 Package pdftex.def Info: images/sdvb.png used on input line 208.
 (pdftex.def)             Requested size: 91.75127pt x 137.45314pt.
-LaTeX Font Info:    Font shape `OMS/bch/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 231.
 
-Underfull \hbox (badness 5105) in paragraph at lines 231--232
+<images/types_of_diffusion.png, id=116, 204.765pt x 204.765pt>
+File: images/types_of_diffusion.png Graphic file (type png)
+
+<use images/types_of_diffusion.png>
+Package pdftex.def Info: images/types_of_diffusion.png used on input line 220.
+(pdftex.def)             Requested size: 158.69121pt x 158.68263pt.
+LaTeX Font Info:    Font shape `OMS/bch/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 236.
+
+Underfull \hbox (badness 5105) in paragraph at lines 236--237
 []\T1/bch/m/n/9 For foot-notes in the main text of the ar-ti-cle please
  []
 
 
-Underfull \hbox (badness 3623) in paragraph at lines 231--232
+Underfull \hbox (badness 3623) in paragraph at lines 236--237
 \T1/bch/m/n/9 num-ber the foot-notes to avoid du-pli-cate sym-bols. \T1/bch/m/i
 t/9 e.g.
  []
 
 (rsc_art.bbl) 
 AED: lastpage setting LastPage
+
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
+
 File: head_foot/RF.pdf Graphic file (type pdf)
 <use head_foot/RF.pdf>
-Package pdftex.def Info: head_foot/RF.pdf used on input line 248.
+Package pdftex.def Info: head_foot/RF.pdf used on input line 253.
 (pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
 File: head_foot/LF.pdf Graphic file (type pdf)
  <use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf used on input line 248.
+Package pdftex.def Info: head_foot/LF.pdf used on input line 253.
 (pdftex.def)             Requested size: 173.26239pt x 9.0pt.
- [2 <./images/sdvb.png>]
-(rsc_art.aux) ) 
+ [2 <./images/sdvb.png> <./images/types_of_diffusion.png>] (rsc_art.aux) ) 
 Here is how much of TeX's memory you used:
- 15152 strings out of 493634
- 274417 string characters out of 3145853
- 357343 words of memory out of 3000000
- 18283 multiletter control sequences out of 15000+200000
+ 15145 strings out of 493634
+ 274349 string characters out of 3145853
+ 352922 words of memory out of 3000000
+ 18275 multiletter control sequences out of 15000+200000
  96068 words of font info for 139 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  42i,15n,44p,10424b,441s stack positions out of 5000i,500n,10000p,200000b,50000s
-{F:/PortableApps/miktex/fonts/enc/dvips/fontname/8r.enc}<F:/Port
-ableApps/miktex/fonts/type1/bitstrea/charter/bchb8a.pfb><F:/PortableApps/miktex
-/fonts/type1/bitstrea/charter/bchr8a.pfb><F:/PortableApps/miktex/fonts/type1/bi
-tstrea/charter/bchri8a.pfb><F:/PortableApps/miktex/fonts/type1/public/amsfonts/
-cm/cmr10.pfb><F:/PortableApps/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-<F:/PortableApps/miktex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><F:/PortableAp
-ps/miktex/fonts/type1/public/amsfonts/cm/cmsy9.pfb><F:/PortableApps/miktex/font
-s/type1/urw/courier/ucrr8a.pfb><F:/PortableApps/miktex/fonts/type1/urw/helvetic
-/uhvb8a.pfb><F:/PortableApps/miktex/fonts/type1/urw/helvetic/uhvr8a.pfb><F:/Por
-tableApps/miktex/fonts/type1/urw/symbol/usyr.pfb><F:/PortableApps/miktex/fonts/
-type1/urw/times/utmr8a.pfb><F:/PortableApps/miktex/fonts/type1/urw/times/utmri8
-a.pfb>
-Output written on rsc_art.pdf (2 pages, 1237822 bytes).
+{F:/P
+ortableApps/miktex/fonts/enc/dvips/fontname/8r.enc}<F:/PortableApps/miktex/font
+s/type1/bitstrea/charter/bchb8a.pfb><F:/PortableApps/miktex/fonts/type1/bitstre
+a/charter/bchr8a.pfb><F:/PortableApps/miktex/fonts/type1/bitstrea/charter/bchri
+8a.pfb><F:/PortableApps/miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><F:/Por
+tableApps/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><F:/PortableApps/mik
+tex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><F:/PortableApps/miktex/fonts/type
+1/public/amsfonts/cm/cmsy9.pfb><F:/PortableApps/miktex/fonts/type1/urw/courier/
+ucrr8a.pfb><F:/PortableApps/miktex/fonts/type1/urw/helvetic/uhvb8a.pfb><F:/Port
+ableApps/miktex/fonts/type1/urw/helvetic/uhvr8a.pfb><F:/PortableApps/miktex/fon
+ts/type1/urw/symbol/usyr.pfb><F:/PortableApps/miktex/fonts/type1/urw/times/utmr
+8a.pfb><F:/PortableApps/miktex/fonts/type1/urw/times/utmri8a.pfb>
+Output written on rsc_art.pdf (2 pages, 1296426 bytes).
 PDF statistics:
- 163 PDF objects out of 1000 (max. 8388607)
+ 165 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
