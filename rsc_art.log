@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.8)  27 JUL 2016 10:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.8)  27 JUL 2016 10:38
 entering extended mode
 **./rsc_art.tex
 (rsc_art.tex
@@ -802,8 +802,6 @@ File: head_foot/dates.pdf Graphic file (type pdf)
  <use head_foot/dates.pdf>
 Package pdftex.def Info: head_foot/dates.pdf used on input line 130.
 (pdftex.def)             Requested size: 79.13544pt x 64.19968pt.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 130.
 
 Overfull \hbox (7.21284pt too wide) in paragraph at lines 130--130
 [][] 
@@ -824,57 +822,50 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 <example1.pdf, id=3, 148.555pt x 194.7275pt>
 File: example1.pdf Graphic file (type pdf)
  <use example1.pdf>
-Package pdftex.def Info: example1.pdf used on input line 171.
+Package pdftex.def Info: example1.pdf used on input line 170.
 (pdftex.def)             Requested size: 65.11731pt x 85.35826pt.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 172.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 171.
 
 <example2.pdf, id=4, 148.555pt x 194.7275pt>
 File: example2.pdf Graphic file (type pdf)
  <use example2.pdf>
-Package pdftex.def Info: example2.pdf used on input line 178.
+Package pdftex.def Info: example2.pdf used on input line 177.
 (pdftex.def)             Requested size: 65.11731pt x 85.35826pt.
-
-Underfull \vbox (badness 1838) has occurred while \output is active []
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 191.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 190.
 LaTeX Font Info:    Font shape `OMS/bch/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 233.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 232.
 
-Underfull \hbox (badness 5105) in paragraph at lines 233--234
+Underfull \hbox (badness 5105) in paragraph at lines 232--233
 []\T1/bch/m/n/9 For foot-notes in the main text of the ar-ti-cle please
  []
 
 
-Underfull \hbox (badness 3623) in paragraph at lines 233--234
+Underfull \hbox (badness 3623) in paragraph at lines 232--233
 \T1/bch/m/n/9 num-ber the foot-notes to avoid du-pli-cate sym-bols. \T1/bch/m/i
 t/9 e.g.
  []
-
-
-Overfull \vbox (1.99445pt too high) has occurred while \output is active []
-
 
 <head_foot/journal_name.pdf, id=5, 227.6505pt x 45.2892pt>
 File: head_foot/journal_name.pdf Graphic file (type pdf)
 
 <use head_foot/journal_name.pdf>
-Package pdftex.def Info: head_foot/journal_name.pdf used on input line 238.
+Package pdftex.def Info: head_foot/journal_name.pdf used on input line 237.
 (pdftex.def)             Requested size: 150.79515pt x 30.0pt.
 
 <head_foot/header_bar.pdf, id=6, 512.1534pt x 36.135pt>
 File: head_foot/header_bar.pdf Graphic file (type pdf)
 
 <use head_foot/header_bar.pdf>
-Package pdftex.def Info: head_foot/header_bar.pdf used on input line 238.
+Package pdftex.def Info: head_foot/header_bar.pdf used on input line 237.
 (pdftex.def)             Requested size: 526.37598pt x 37.14003pt.
 
 <head_foot/RSC_LOGO_CMYK.pdf, id=7, 274.8669pt x 183.3249pt>
 File: head_foot/RSC_LOGO_CMYK.pdf Graphic file (type pdf)
 
 <use head_foot/RSC_LOGO_CMYK.pdf>
-Package pdftex.def Info: head_foot/RSC_LOGO_CMYK.pdf used on input line 238.
+Package pdftex.def Info: head_foot/RSC_LOGO_CMYK.pdf used on input line 237.
 (pdftex.def)             Requested size: 82.4607pt x 55.0pt.
 
 
@@ -886,13 +877,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 <head_foot/LF.pdf, id=8, 154.5775pt x 8.03pt>
 File: head_foot/LF.pdf Graphic file (type pdf)
  <use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf used on input line 238.
+Package pdftex.def Info: head_foot/LF.pdf used on input line 237.
 (pdftex.def)             Requested size: 173.26239pt x 9.0pt.
 
 <head_foot/RF.pdf, id=9, 90.45795pt x 7.4679pt>
 File: head_foot/RF.pdf Graphic file (type pdf)
  <use head_foot/RF.pdf>
-Package pdftex.def Info: head_foot/RF.pdf used on input line 238.
+Package pdftex.def Info: head_foot/RF.pdf used on input line 237.
 (pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
  [1{F:/PortableApps/miktex/pdftex/config/pdftex.map}
 
@@ -915,11 +906,11 @@ Overfull \vbox (5.00003pt too high) has occurred while \output is active []
 File: head_foot/RF.pdf Graphic file (type pdf)
 
 <use head_foot/RF.pdf>
-Package pdftex.def Info: head_foot/RF.pdf used on input line 250.
+Package pdftex.def Info: head_foot/RF.pdf used on input line 249.
 (pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
 File: head_foot/LF.pdf Graphic file (type pdf)
  <use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf used on input line 250.
+Package pdftex.def Info: head_foot/LF.pdf used on input line 249.
 (pdftex.def)             Requested size: 173.26239pt x 9.0pt.
  [2 <./example2.pdf>] (rsc_art.aux)
 
@@ -927,11 +918,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15171 strings out of 493634
- 274658 string characters out of 3145853
+ 15154 strings out of 493634
+ 274395 string characters out of 3145853
  355382 words of memory out of 3000000
- 18300 multiletter control sequences out of 15000+200000
- 104830 words of font info for 145 fonts, out of 3000000 for 9000
+ 18285 multiletter control sequences out of 15000+200000
+ 99084 words of font info for 141 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  42i,15n,44p,10424b,441s stack positions out of 5000i,500n,10000p,200000b,50000s
 {F:/PortableApps/miktex/fonts/enc/dvips/fontname/8r.enc}<F:/PortableApps/mikt
@@ -946,7 +937,7 @@ F:/PortableApps/miktex/fonts/type1/urw/helvetic/uhvr8a.pfb><F:/PortableApps/mik
 tex/fonts/type1/urw/helvetic/uhvro8a.pfb><F:/PortableApps/miktex/fonts/type1/ur
 w/symbol/usyr.pfb><F:/PortableApps/miktex/fonts/type1/urw/times/utmr8a.pfb><F:/
 PortableApps/miktex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on rsc_art.pdf (2 pages, 1339256 bytes).
+Output written on rsc_art.pdf (2 pages, 1335940 bytes).
 PDF statistics:
  182 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
