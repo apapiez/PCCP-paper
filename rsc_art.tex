@@ -24,7 +24,7 @@
 \usepackage[T1]{fontenc}
 \usepackage[usenames,dvipsnames]{xcolor}
 \usepackage{setspace}
-\usepackage[compact]{titlesec}
+\usepackage[compact]{titlesec} % added captionof package to add captions to equations
 %%%Please don't disable any packages in the preamble, as this may cause the template to display incorrectly.%%%
 
 
@@ -248,19 +248,17 @@ When studying the ion exchange reaction it is important to determine which diffu
 \end{table}
 
 \subsection{Fick's law}
-Fick, based upon Fourier's seminal treatment on the transport of heat across temperature gradients, explained the phenomenon of the diffusion of matter via Fick's first \ref{eq:2} and second \ref{eq:3} laws.
-
 \begin{equation}
 J = -\frac{\Delta\phi}{\Delta x}\label{eq:2}
+test
 \end{equation}
 \begin{equation}
 \frac{\delta\phi}{\delta t} = -D\frac{\Delta^2\phi}{\Delta x^2}\label{eq:3}
 \end{equation}
 
-You can also put lists into the text. You can have bulleted or numbered lists of almost any kind. 
-The \texttt{mhchem} package can also be used so that formulae are easy to input: \texttt{\textbackslash ce\{H2SO4\}} gives \ce{H2SO4}. 
+Fick, based upon Fourier's seminal treatment on the transport of heat across temperature gradients, explained the phenomenon of the diffusion of matter via Fick's first (eq \ref{eq:2}) and second (eq \ref{eq:3}) laws.
 
-For footnotes in the main text of the article please number the footnotes to avoid duplicate symbols. \textit{e.g.}\ \texttt{\textbackslash footnote[num]\{your text\}}. The corresponding author $\ast$ counts as footnote 1, ESI as footnote 2, \textit{e.g.}\ if there is no ESI, please start at [num]=[2], if ESI is cited in the title please start at [num]=[3] \textit{etc.} Please also cite the ESI within the main body of the text using \dag.
+Fick's second law, describes how the concentration of a diffusing substances changes over time.
 
 \section{Conclusions}
 The conclusions section should come at the end of article. For the reference section, the style file \texttt{rsc.bst} can be used to generate the correct reference style.

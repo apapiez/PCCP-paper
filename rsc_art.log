@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.8)  27 JUL 2016 16:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.8)  27 JUL 2016 17:16
 entering extended mode
 **./rsc_art.tex
 (rsc_art.tex
@@ -898,25 +898,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 233--248
 [][]
  []
 
-
-LaTeX Warning: Reference `eq:2' on page 2 undefined on input line 251.
-
-
-LaTeX Warning: Reference `eq:3' on page 2 undefined on input line 251.
-
-LaTeX Font Info:    Font shape `OMS/bch/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 263.
-
-Underfull \hbox (badness 5105) in paragraph at lines 263--264
-[]\T1/bch/m/n/9 For foot-notes in the main text of the ar-ti-cle please
- []
-
-
-Underfull \hbox (badness 3623) in paragraph at lines 263--264
-\T1/bch/m/n/9 num-ber the foot-notes to avoid du-pli-cate sym-bols. \T1/bch/m/i
-t/9 e.g.
- []
-
 (rsc_art.bbl) 
 AED: lastpage setting LastPage
 
@@ -925,43 +906,39 @@ Package balance Warning: You have called \balance in second column
 
 File: head_foot/RF.pdf Graphic file (type pdf)
 <use head_foot/RF.pdf>
-Package pdftex.def Info: head_foot/RF.pdf used on input line 280.
+Package pdftex.def Info: head_foot/RF.pdf used on input line 278.
 (pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
 File: head_foot/LF.pdf Graphic file (type pdf)
  <use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf used on input line 280.
+Package pdftex.def Info: head_foot/LF.pdf used on input line 278.
 (pdftex.def)             Requested size: 173.26239pt x 9.0pt.
  [2 <./images/sdvb.png> <./images/types_of_diffusion.png>] (rsc_art.aux)
-
-LaTeX Warning: There were undefined references.
-
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15162 strings out of 493634
- 274468 string characters out of 3145853
- 352977 words of memory out of 3000000
- 18279 multiletter control sequences out of 15000+200000
- 103178 words of font info for 152 fonts, out of 3000000 for 9000
+ 15154 strings out of 493634
+ 274344 string characters out of 3145853
+ 352993 words of memory out of 3000000
+ 18273 multiletter control sequences out of 15000+200000
+ 98191 words of font info for 148 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 42i,15n,44p,10424b,441s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,15n,44p,10424b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
 {F:/PortableApps/miktex/fonts/enc/dvips/fontname/8r.enc}<F:/PortableApps/mikt
 ex/fonts/type1/bitstrea/charter/bchb8a.pfb><F:/PortableApps/miktex/fonts/type1/
 bitstrea/charter/bchr8a.pfb><F:/PortableApps/miktex/fonts/type1/bitstrea/charte
 r/bchri8a.pfb><F:/PortableApps/miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb>
 <F:/PortableApps/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><F:/PortableA
 pps/miktex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><F:/PortableApps/miktex/fon
-ts/type1/public/amsfonts/cm/cmsy9.pfb><F:/PortableApps/miktex/fonts/type1/urw/c
-ourier/ucrr8a.pfb><F:/PortableApps/miktex/fonts/type1/urw/helvetic/uhvb8a.pfb><
-F:/PortableApps/miktex/fonts/type1/urw/helvetic/uhvr8a.pfb><F:/PortableApps/mik
-tex/fonts/type1/urw/symbol/usyr.pfb><F:/PortableApps/miktex/fonts/type1/urw/sym
-bol/usyr.pfb><F:/PortableApps/miktex/fonts/type1/urw/times/utmr8a.pfb><F:/Porta
-bleApps/miktex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on rsc_art.pdf (2 pages, 1303450 bytes).
+ts/type1/urw/courier/ucrr8a.pfb><F:/PortableApps/miktex/fonts/type1/urw/helveti
+c/uhvb8a.pfb><F:/PortableApps/miktex/fonts/type1/urw/helvetic/uhvr8a.pfb><F:/Po
+rtableApps/miktex/fonts/type1/urw/symbol/usyr.pfb><F:/PortableApps/miktex/fonts
+/type1/urw/symbol/usyr.pfb><F:/PortableApps/miktex/fonts/type1/urw/times/utmr8a
+.pfb><F:/PortableApps/miktex/fonts/type1/urw/times/utmri8a.pfb>
+Output written on rsc_art.pdf (2 pages, 1291969 bytes).
 PDF statistics:
- 169 PDF objects out of 1000 (max. 8388607)
+ 165 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
