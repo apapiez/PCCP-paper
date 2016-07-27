@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.8)  27 JUL 2016 10:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.8)  27 JUL 2016 14:10
 entering extended mode
 **./rsc_art.tex
 (rsc_art.tex
@@ -651,11 +651,7 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
-)) (rsc_art.aux
-
-LaTeX Warning: Label `tbl:example' multiply defined.
-
-)
+)) (rsc_art.aux)
 \openout1 = `rsc_art.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
@@ -671,7 +667,8 @@ LaTeX Font Info:    ... okay on input line 35.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
 LaTeX Font Info:    Try loading font information for T1+bch on input line 35.
- (F:\PortableApps\miktex\tex\latex\psnfss\t1bch.fd
+
+(F:\PortableApps\miktex\tex\latex\psnfss\t1bch.fd
 File: t1bch.fd 2004/10/18 font definitions for T1/bch.
 )
 .................................................
@@ -822,46 +819,39 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 172.
 
-Overfull \vbox (0.9981pt too high) has occurred while \output is active []
+Overfull \vbox (3.61813pt too high) has occurred while \output is active []
 
-LaTeX Font Info:    Font shape `OMS/bch/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 217.
 
-Underfull \hbox (badness 5105) in paragraph at lines 217--218
-[]\T1/bch/m/n/9 For foot-notes in the main text of the ar-ti-cle please
+<images/ion_exchange.png, id=3, 354.57469pt x 121.95563pt>
+File: images/ion_exchange.png Graphic file (type png)
+
+<use images/ion_exchange.png>
+Package pdftex.def Info: images/ion_exchange.png used on input line 190.
+(pdftex.def)             Requested size: 264.46837pt x 90.9659pt.
+
+Overfull \hbox (9.24713pt too wide) in paragraph at lines 190--191
+[][] 
  []
 
-
-Underfull \hbox (badness 3623) in paragraph at lines 217--218
-\T1/bch/m/n/9 num-ber the foot-notes to avoid du-pli-cate sym-bols. \T1/bch/m/i
-t/9 e.g.
- []
-
-(rsc_art.bbl) 
-AED: lastpage setting LastPage
-
-Package balance Warning: You have called \balance in second column
-(balance)                Columns might not be balanced.
-
-<head_foot/journal_name.pdf, id=3, 227.6505pt x 45.2892pt>
+<head_foot/journal_name.pdf, id=5, 227.6505pt x 45.2892pt>
 File: head_foot/journal_name.pdf Graphic file (type pdf)
 
 <use head_foot/journal_name.pdf>
-Package pdftex.def Info: head_foot/journal_name.pdf used on input line 234.
+Package pdftex.def Info: head_foot/journal_name.pdf used on input line 206.
 (pdftex.def)             Requested size: 150.79515pt x 30.0pt.
 
-<head_foot/header_bar.pdf, id=4, 512.1534pt x 36.135pt>
+<head_foot/header_bar.pdf, id=6, 512.1534pt x 36.135pt>
 File: head_foot/header_bar.pdf Graphic file (type pdf)
 
 <use head_foot/header_bar.pdf>
-Package pdftex.def Info: head_foot/header_bar.pdf used on input line 234.
+Package pdftex.def Info: head_foot/header_bar.pdf used on input line 206.
 (pdftex.def)             Requested size: 526.37598pt x 37.14003pt.
 
-<head_foot/RSC_LOGO_CMYK.pdf, id=5, 274.8669pt x 183.3249pt>
+<head_foot/RSC_LOGO_CMYK.pdf, id=7, 274.8669pt x 183.3249pt>
 File: head_foot/RSC_LOGO_CMYK.pdf Graphic file (type pdf)
 
 <use head_foot/RSC_LOGO_CMYK.pdf>
-Package pdftex.def Info: head_foot/RSC_LOGO_CMYK.pdf used on input line 234.
+Package pdftex.def Info: head_foot/RSC_LOGO_CMYK.pdf used on input line 206.
 (pdftex.def)             Requested size: 82.4607pt x 55.0pt.
 
 
@@ -870,59 +860,77 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-<head_foot/LF.pdf, id=6, 154.5775pt x 8.03pt>
+<head_foot/LF.pdf, id=8, 154.5775pt x 8.03pt>
 File: head_foot/LF.pdf Graphic file (type pdf)
  <use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf used on input line 234.
+Package pdftex.def Info: head_foot/LF.pdf used on input line 206.
 (pdftex.def)             Requested size: 173.26239pt x 9.0pt.
 
-<head_foot/RF.pdf, id=7, 90.45795pt x 7.4679pt>
+<head_foot/RF.pdf, id=9, 90.45795pt x 7.4679pt>
 File: head_foot/RF.pdf Graphic file (type pdf)
  <use head_foot/RF.pdf>
-Package pdftex.def Info: head_foot/RF.pdf used on input line 234.
+Package pdftex.def Info: head_foot/RF.pdf used on input line 206.
 (pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
  [1{F:/PortableApps/miktex/pdftex/config/pdftex.map}
 
 
  <./head_foot/journal_name.pdf> <./head_foot/header_bar.pdf> <./head_foot/RSC_L
-OGO_CMYK.pdf> <./head_foot/DOI.pdf> <./head_foot/dates.pdf> <./head_foot/LF.pdf
-> <./head_foot/RF.pdf>]
-File: head_foot/RF.pdf Graphic file (type pdf)
+OGO_CMYK.pdf> <./head_foot/DOI.pdf> <./head_foot/dates.pdf> <./images/ion_excha
+nge.png> <./head_foot/LF.pdf> <./head_foot/RF.pdf>] <images/sdvb.png, id=115, 2
+02.50656pt x 303.38344pt>
+File: images/sdvb.png Graphic file (type png)
 
+<use images/sdvb.png>
+Package pdftex.def Info: images/sdvb.png used on input line 208.
+(pdftex.def)             Requested size: 91.75127pt x 137.45314pt.
+LaTeX Font Info:    Font shape `OMS/bch/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 231.
+
+Underfull \hbox (badness 5105) in paragraph at lines 231--232
+[]\T1/bch/m/n/9 For foot-notes in the main text of the ar-ti-cle please
+ []
+
+
+Underfull \hbox (badness 3623) in paragraph at lines 231--232
+\T1/bch/m/n/9 num-ber the foot-notes to avoid du-pli-cate sym-bols. \T1/bch/m/i
+t/9 e.g.
+ []
+
+(rsc_art.bbl) 
+AED: lastpage setting LastPage
+File: head_foot/RF.pdf Graphic file (type pdf)
 <use head_foot/RF.pdf>
-Package pdftex.def Info: head_foot/RF.pdf used on input line 234.
+Package pdftex.def Info: head_foot/RF.pdf used on input line 248.
 (pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
 File: head_foot/LF.pdf Graphic file (type pdf)
  <use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf used on input line 234.
+Package pdftex.def Info: head_foot/LF.pdf used on input line 248.
 (pdftex.def)             Requested size: 173.26239pt x 9.0pt.
- [2] (rsc_art.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+ [2 <./images/sdvb.png>]
+(rsc_art.aux) ) 
 Here is how much of TeX's memory you used:
- 15131 strings out of 493634
- 274043 string characters out of 3145853
- 355366 words of memory out of 3000000
- 18265 multiletter control sequences out of 15000+200000
- 94233 words of font info for 138 fonts, out of 3000000 for 9000
+ 15152 strings out of 493634
+ 274417 string characters out of 3145853
+ 357343 words of memory out of 3000000
+ 18283 multiletter control sequences out of 15000+200000
+ 96068 words of font info for 139 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  42i,15n,44p,10424b,441s stack positions out of 5000i,500n,10000p,200000b,50000s
-{F:/PortableApps/miktex/fonts/enc/dvips/fontname/8r.enc}<F:/PortableApps/mikt
-ex/fonts/type1/bitstrea/charter/bchb8a.pfb><F:/PortableApps/miktex/fonts/type1/
-bitstrea/charter/bchr8a.pfb><F:/PortableApps/miktex/fonts/type1/bitstrea/charte
-r/bchri8a.pfb><F:/PortableApps/miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-<F:/PortableApps/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><F:/PortableA
-pps/miktex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><F:/PortableApps/miktex/fon
-ts/type1/public/amsfonts/cm/cmsy9.pfb><F:/PortableApps/miktex/fonts/type1/urw/c
-ourier/ucrr8a.pfb><F:/PortableApps/miktex/fonts/type1/urw/helvetic/uhvb8a.pfb><
-F:/PortableApps/miktex/fonts/type1/urw/helvetic/uhvr8a.pfb><F:/PortableApps/mik
-tex/fonts/type1/urw/symbol/usyr.pfb><F:/PortableApps/miktex/fonts/type1/urw/tim
-es/utmr8a.pfb><F:/PortableApps/miktex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on rsc_art.pdf (2 pages, 1208550 bytes).
+{F:/PortableApps/miktex/fonts/enc/dvips/fontname/8r.enc}<F:/Port
+ableApps/miktex/fonts/type1/bitstrea/charter/bchb8a.pfb><F:/PortableApps/miktex
+/fonts/type1/bitstrea/charter/bchr8a.pfb><F:/PortableApps/miktex/fonts/type1/bi
+tstrea/charter/bchri8a.pfb><F:/PortableApps/miktex/fonts/type1/public/amsfonts/
+cm/cmr10.pfb><F:/PortableApps/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+<F:/PortableApps/miktex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><F:/PortableAp
+ps/miktex/fonts/type1/public/amsfonts/cm/cmsy9.pfb><F:/PortableApps/miktex/font
+s/type1/urw/courier/ucrr8a.pfb><F:/PortableApps/miktex/fonts/type1/urw/helvetic
+/uhvb8a.pfb><F:/PortableApps/miktex/fonts/type1/urw/helvetic/uhvr8a.pfb><F:/Por
+tableApps/miktex/fonts/type1/urw/symbol/usyr.pfb><F:/PortableApps/miktex/fonts/
+type1/urw/times/utmr8a.pfb><F:/PortableApps/miktex/fonts/type1/urw/times/utmri8
+a.pfb>
+Output written on rsc_art.pdf (2 pages, 1237822 bytes).
 PDF statistics:
- 158 PDF objects out of 1000 (max. 8388607)
+ 163 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

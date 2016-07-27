@@ -116,10 +116,10 @@
 \sffamily
 \begin{tabular}{m{4.5cm} p{13.5cm} }
 
-\includegraphics{head_foot/DOI} & \noindent\LARGE{\textbf{A Method for Studying the Diffusion of Quaternary Ammonium Cations Through Polymer Phases$^\dag$}} \\%Article title goes here instead of the text "This is the title"
+\includegraphics{head_foot/DOI} & \noindent\LARGE{\textbf{A Method for Studying the Diffusion of Quaternary Ammonium Cations Through Polyelectrolyte Phases$^\dag$}} \\%Article title goes here instead of the text "This is the title"
 \vspace{0.3cm} & \vspace{0.3cm} \\
 
- & \noindent\large{Alexander M. Papiez,$^{\ast}$\textit{$^{a}$} Justing J. B. Perry,\textit{$^{b\ddag}$} and Les R. Dix\textit{$^{a}$}} \\%Author names go here instead of "Full name", etc.
+ & \noindent\large{Alexander M. Papiez,$^{\ast}$\textit{$^{a}$} Justin J. B. Perry,\textit{$^{b\ddag}$} and Les R. Dix\textit{$^{a}$}} \\%Author names go here instead of "Full name", etc.
 
 \includegraphics{head_foot/dates} & \noindent\normalsize{The mobility of organic cations in polymeric phases is an important property to consider when using these materials as active ingredients in coatings. Here we describe a method for extracting such compounds from polymeric samples and how analysis of these extracts can yield insights about the diffusivity of molecules in a polymeric phase.} \\%The abstrast goes here instead of the text "The abstract should be..."
 
@@ -183,24 +183,38 @@ In order to assess how different structural features assess the diffusivity of a
   \end{tabular*}
 \end{table}
 
+While HPLC-MS and GC-MS are by far the most sensitive techniques for the investigation of organic compounds, much time and effort must be spent developing and optimizing analyte extraction, pre-concentration and detection methods. Alternative methods, such as flame-photometry and quantitative NMR spectroscopy require less method development but are concomitantly less sensitive. The aim of this work was to establish whether the kinetics of the ion exchange of quaternary ammonium cations could be studied using a combination of flame photometry and qNMR.
 
+\section{Ion Exchange}
+\begin{figure}[h !]
+	\includegraphics[width=.5\textwidth]{images/ion_exchange}
+	\caption{Basic outline of the ion exchange equilibrium, where an incoming ion B+ can displace a resin associated ion A+ }
+	\label{fig:ion_ex}
+\end{figure}
 
+\subsection{Basic Principle}
+Ion exchange describes the phenomenon in which an ion exchange material in some initial ionic form will, in contact with a solution containing some ion of a different type to that already contained within the resin, will take-up that ion while releasing the initial ion. 
 
-\begin{table*}
-\small
-  \caption{\ An example of a caption to accompany a table \textendash\ table captions do not end in a full point}
-  \label{tbl:example}
-  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lllllll}
-    \hline
-    Header one & Header two & Header three & Header four & Header five & Header six  & Header seven\\
-    \hline
-    1 & 2 & 3 & 4 & 5 & 6  & 7\\
-    8 & 9 & 10 & 11 & 12 & 13 & 14 \\
-    15 & 16 & 17 & 18 & 19 & 20 & 21\\
-    \hline
-  \end{tabular*}
-\end{table*}
+\begin{equation}
+R\bar{A} + B^+ \leftrightarrow R\bar{B} + A^+
+\end{equation}
 
+This phenomenon is of great utility in a large number of industrially important processes; notably the preferential extraction of radioactive isotopes from the waste produced by nuclear reactors.
+
+\subsection{Ion Exchange materials}
+A typical ion exchange material consists of a crosslinked polymeric matrix containing acidic or basic side chains (depending upon whether cation or anion exchange is the desired behaviour of the resin). One of the most popular co-polymers used as a matrix for ion-exchange material is styrene-divinylbenzene (SDVB)(see figure \ref{fig:sdvb}).
+
+\begin{figure}[h !]
+	\includegraphics[height=.2\textheight]{images/sdvb}
+	\centering
+	\caption{The styrene-divinylbenzene co-polymer is one of the most popular skeletons for ion exchange resins. R may be any acidic or basic group, dependant upon whether cation or anion exchange functionality is desired}
+	\label{fig:sdvb}
+\end{figure}
+
+SDVB based resins are particularly attractive due to the ease with which polymer beads of a well controlled size distribution may be obtained. This is achieved by inverse phase suspension free radical polymerization of the monomers in water.  As we shall later discuss, this size control is critical for the production of ion exchange resins which behave in a well defined and predictable manner.
+
+\section{The Kinetics of Ion Exchange}
+The kinetics of ion exchange are well understood, with the first pioneering studies undertaken by Hellferich at the beginning of the 20th century.
 \section{Equations}
 
 Equations can be typeset inline \textit{e.g.}\ $ y = mx + c$ or displayed with and without numbers:
