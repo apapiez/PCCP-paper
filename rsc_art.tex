@@ -221,13 +221,12 @@ The kinetics of ion exchange are well understood, with the first pioneering stud
 	\caption{Ion exchange consists of a number of steps; 1+5: diffusion of ions through the bulk solution, 2: diffusion of ions through the Nernst Layer, 3: diffusion of ions through the polymeric phase, 4: exchange of ions at the ionic polymer side chain}
 	\label{fig:diftypes}
 \end{figure}
-\section{Equations}
 
 Figure \ref{fig:diftypes} shows the various sub-processes which make up the overall ion exchange process. It is widely accepted that of all these processes, only diffusion through the Nernst layer and the ion exchanger itself are rate controlling (processes 2 and 3 respectively).\cite{helfferich1962} 
 
 When studying the ion exchange reaction it is important to determine which diffusion type is rate controlling; not only are they subject to significantly different mathematical interpretations, they shed light on diffusion in different regions. In other words, to study diffusivity of a molecule within a polymeric phase, particle diffusion not film diffusion must be rate controlling. Table \ref{tab:diff_type_control} shows how the reaction conditions can be modified in order to influence which process will be rate controlling. 
 
-\begin{table}[h]
+\begin{table}[h !]
 	\small
 	\caption{The effect of different reaction conditions on the two potential rate controlling diffusion types}
 	\label{tbl:example}
@@ -248,10 +247,14 @@ When studying the ion exchange reaction it is important to determine which diffu
 	\label{tab:diff_type_control}
 \end{table}
 
- \[ A = \pi r^2 \]
+\subsection{Fick's law}
+Fick, based upon Fourier's seminal treatment on the transport of heat across temperature gradients, explained the phenomenon of the diffusion of matter via Fick's first \ref{eq:2} and second \ref{eq:3} laws.
 
 \begin{equation}
-  \frac{\gamma}{\epsilon x} r^2 = 2r
+J = -\frac{\Delta\phi}{\Delta x}\label{eq:2}
+\end{equation}
+\begin{equation}
+\frac{\delta\phi}{\delta t} = -D\frac{\Delta^2\phi}{\Delta x^2}\label{eq:3}
 \end{equation}
 
 You can also put lists into the text. You can have bulleted or numbered lists of almost any kind. 
