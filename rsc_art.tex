@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %This is the LaTeX ARTICLE template for RSC journals
-%Copyright The Royal Society of Chemistry 2014
+%Copyright The Royal Society of Chemistry 2016
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[twoside,twocolumn,9pt]{article}
@@ -9,12 +9,11 @@
 \usepackage[version=3]{mhchem}
 \usepackage[left=1.5cm, right=1.5cm, top=1.785cm, bottom=2.0cm]{geometry}
 \usepackage{balance}
-\usepackage{widetext}
 \usepackage{times,mathptmx}
 \usepackage{sectsty}
 \usepackage{graphicx} 
 \usepackage{lastpage}
-\usepackage[format=plain,justification=raggedright,singlelinecheck=false,font={stretch=1.125,small,sf},labelfont=bf,labelsep=space]{caption}
+\usepackage[format=plain,justification=justified,singlelinecheck=false,font={stretch=1.125,small,sf},labelfont=bf,labelsep=space]{caption}
 \usepackage{float}
 \usepackage{fancyhdr}
 \usepackage{fnpos}
@@ -122,7 +121,7 @@
 
  & \noindent\large{Full Name,$^{\ast}$\textit{$^{a}$} Full Name,\textit{$^{b\ddag}$} and Full Name\textit{$^{a}$}} \\%Author names go here instead of "Full name", etc.
 
-\includegraphics{head_foot/dates} & \noindent\normalsize{The abstract should be a single paragraph which summarises the content of the article. Any references in the abstract should be written out in full \textit{e.g.} [Surname \textit{et al., Journal Title}, 2000, \textbf{35}, 3523].} \\%The abstract goes here instead of the text "The abstract should be..."
+\includegraphics{head_foot/dates} & \noindent\normalsize{The abstract should be a single paragraph which summarises the content of the article. Any references in the abstract should be written out in full \textit{e.g.}\ [Surname \textit{et al., Journal Title}, 2000, \textbf{35}, 3523].} \\%The abstrast goes here instead of the text "The abstract should be..."
 
 \end{tabular}
 
@@ -148,7 +147,7 @@
 \footnotetext{\dag~Electronic Supplementary Information (ESI) available: [details of any supplementary information available should be included here]. See DOI: 10.1039/b000000x/}
 %additional addresses can be cited as above using the lower-case letters, c, d, e... If all authors are from the same address, no letter is required
 
-\footnotetext{\ddag~Additional footnotes to the title and authors can be included \emph{e.g.}\ `Present address:' or `These authors contributed equally to this work' as above using the symbols: \ddag, \textsection, and \P. Please place the appropriate symbol next to the author's name and include a \texttt{\textbackslash footnotetext} entry in the the correct place in the list.}
+\footnotetext{\ddag~Additional footnotes to the title and authors can be included \textit{e.g.}\ `Present address:' or `These authors contributed equally to this work' as above using the symbols: \ddag, \textsection, and \P. Please place the appropriate symbol next to the author's name and include a \texttt{\textbackslash footnotetext} entry in the the correct place in the list.}
 
 
 %%%END OF FOOTNOTES%%%
@@ -169,8 +168,8 @@ Graphics should be inserted on the page where they are first mentioned (unless t
 
 \begin{figure}[h]
 \centering
-  \includegraphics[height=3cm]{example}
-  \caption{An example figure caption}
+  \includegraphics[height=3cm]{example1}
+  \caption{An example figure caption \textendash\ the image is from the \textit{Physical Chemistry Chemical Physics} cover gallery.}
   \label{fgr:example}
 \end{figure}
 
@@ -189,9 +188,9 @@ Tables typeset in RSC house style do not include vertical lines. Table footnote 
 \small
   \caption{\ An example of a caption to accompany a table}
   \label{tbl:example}
-  \begin{tabular*}{0.5\textwidth}{@{\extracolsep{\fill}}lll}
+  \begin{tabular*}{0.48\textwidth}{@{\extracolsep{\fill}}lll}
     \hline
-    Header one/units & Header two & Header three \\
+    Header one (units) & Header two & Header three \\
     \hline
     1 & 2 & 3 \\
     4 & 5 & 6 \\
@@ -203,59 +202,43 @@ Tables typeset in RSC house style do not include vertical lines. Table footnote 
 
 Adding notes to tables can be complicated.  Perhaps the easiest method is to generate these manually.\footnote[4]{Footnotes should appear here. These might include comments relevant to but not central to the matter under discussion, limited experimental and spectral data, and crystallographic data.}
 
-% an example of a two-column table
-%\begin{table*}
-%\small
-  %\caption{\ An example of a caption to accompany a table, table captions do not end in a full point}
-  %\label{tbl:example}
-  %\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lllllll}
-    %\hline
-    %Header one & Header two & Header three & Header four & Header five & Header six  & Header seven\\
-    %\hline
-    %1 & 2 & 3 & 4 & 5 & 6  & 7\\
-    %8 & 9 & 10 & 11 & 12 & 13 & 14 \\
-    %15 & 16 & 17 & 18 & 19 & 20 & 21\\
-    %\hline
-  %\end{tabular*}
-%\end{table*}
+\begin{table*}
+\small
+  \caption{\ An example of a caption to accompany a table \textendash\ table captions do not end in a full point}
+  \label{tbl:example}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lllllll}
+    \hline
+    Header one & Header two & Header three & Header four & Header five & Header six  & Header seven\\
+    \hline
+    1 & 2 & 3 & 4 & 5 & 6  & 7\\
+    8 & 9 & 10 & 11 & 12 & 13 & 14 \\
+    15 & 16 & 17 & 18 & 19 & 20 & 21\\
+    \hline
+  \end{tabular*}
+\end{table*}
 
 \section{Equations}
 
-Equations can be typeset inline \textit{e.g.} $ y = mx + c$ or displayed with and without numbers:
+Equations can be typeset inline \textit{e.g.}\ $ y = mx + c$ or displayed with and without numbers:
 
  \[ A = \pi r^2 \]
 
 \begin{equation}
-  \frac{\mathrm{\gamma}}{\mathrm{\epsilon}x} r^2 = 2r
+  \frac{\gamma}{\epsilon x} r^2 = 2r
 \end{equation}
-\pagebreak
-\begin{widetext}
-\begin{eqnarray} \label{e27}
-T_{nn''}^{mm''}=
-\begin{cases}
-& \dfrac{(q{+}p'')!\,(p{-}p'')!}{(q{-}q'')!\,(p{+}q'')!}\,a^{m-m''}b^{n''}\,P_{p-p''}^{(m-m'',n'')}(1{-}2A^2)P_{p-p''}^{(m-m'',n'')}(2B^2{-}1)~~~ \\ & \text{when}~~~n-n''\geq m-m''\geq0~,\\
-\\
-& \dfrac{(p{+}q'')!\,(q{-}q'')!}{(p{-}p'')!\,(q{+}p'')!}\,a^{m''-m}b^{n''}\,P_{q-q''}^{(m''-m,n'')}(1{-}2A^2)\,P_{q-q''}^{(m''-m,n'')}(2B^2{-}1)~~~ \\ & \text{when}~~~ n-n''\geq m''-m\geq0~, \\
-\\
-&0 ~~~ \text{otherwise}.
-\end{cases}
-\end{eqnarray}
-\end{widetext}
 
 You can also put lists into the text. You can have bulleted or numbered lists of almost any kind. 
 The \texttt{mhchem} package can also be used so that formulae are easy to input: \texttt{\textbackslash ce\{H2SO4\}} gives \ce{H2SO4}. 
 
-For footnotes in the main text of the article please number the footnotes to avoid duplicate symbols. e.g. \texttt{\textbackslash footnote[num]\{your text\}} the corresponding author $\ast$ counts as footnote 1, ESI as footnote 2, e.g. if there is no ESI, please start at [num]=[2], if ESI is cited in the title please start at [num]=[3] etc. Please also cite the ESI within the main body of the text using \dag.
+For footnotes in the main text of the article please number the footnotes to avoid duplicate symbols. \textit{e.g.}\ \texttt{\textbackslash footnote[num]\{your text\}}. The corresponding author $\ast$ counts as footnote 1, ESI as footnote 2, \textit{e.g.}\ if there is no ESI, please start at [num]=[2], if ESI is cited in the title please start at [num]=[3] \textit{etc.} Please also cite the ESI within the main body of the text using \dag.
 
 \section{Conclusions}
-The conclusions section should come at the end of article. For the reference section, the style file rsc.bst can be used to generate the correct reference style.
+The conclusions section should come at the end of article. For the reference section, the style file \texttt{rsc.bst} can be used to generate the correct reference style.
 %%%END OF MAIN TEXT%%%
-
-
 
 %The \balance command can be used to balance the columns on the final page if desired. It should be placed anywhere within the first column of the last page.
 
-%\balance
+\balance
 
 %If notes are included in your references you can change the title from 'References' to 'Notes and references' using the following command:
 %\renewcommand\refname{Notes and references}
