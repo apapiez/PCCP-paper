@@ -5,6 +5,7 @@
 
 \documentclass[twoside,twocolumn,9pt]{article}
 \usepackage{extsizes}
+\usepackage{silence}
 \usepackage[super,sort&compress,comma]{natbib} 
 \usepackage[version=3]{mhchem}
 \usepackage[left=1.5cm, right=1.5cm, top=1.785cm, bottom=2.0cm]{geometry}
@@ -288,7 +289,7 @@ A typical ion exchange material consists of a crosslinked polymeric matrix conta
 SDVB based resins are particularly attractive due to the ease with which polymer beads of a well controlled size distribution may be obtained. This is achieved by inverse phase suspension free radical polymerization of the monomers in water.  As we shall later discuss, this size control is critical for the production of ion exchange resins which behave in a well defined and predictable manner.
 
 \subsection{The Kinetics of Ion Exchange}
-The kinetics of ion exchange are well understood, with the first pioneering studies undertaken by Hellferich at the beginning of the 20th century.\cite{helfferich1962} The early consensus which was established is that diffusion of ions is the rate-controlling step in ion exchange reactions. There are however two separate diffusive mechanisms which may dominate, depending on reaction conditions, the structure of the ion exchange resin and the nature of the ions undergoing exchange.
+The kinetics of ion exchange are well understood, with the first pioneering studies undertaken by Boyd at the beginning of the 20th century\cite{boyd}. The early consensus which was established is that diffusion of ions is the rate-controlling step in ion exchange reactions. There are however two separate diffusive mechanisms which may dominate, depending on reaction conditions, the structure of the ion exchange resin and the nature of the ions undergoing exchange.
 
 \begin{figure}[h !]
 	\centering\includegraphics[height=.3\textwidth]{images/types_of_diffusion}
@@ -320,83 +321,102 @@ When studying the ion exchange reaction it is important to determine which diffu
 	\end{tabular*}
 	\label{tab:diff_type_control}
 \end{table}
-
-\subsubsection{Fick's law}
-\begin{equation}
-J = -\frac{\delta\phi}{\delta x}\label{eq:2}
-test
-\end{equation}
-\begin{equation}
-\frac{\delta\phi}{\delta t} = -D\frac{\delta^2\phi}{\delta x^2}\label{eq:3}
-\end{equation}
-
-Fick, based upon Fourier's seminal treatment on the transport of heat across temperature gradients, explained the phenomenon of the diffusion of matter via Fick's first (eq \ref{eq:2}) and second (eq \ref{eq:3}) laws.
-
-Fick's second law, describes how the concentration of a diffusing substances changes over time. In the 1940s, Boyd brought together the observations of ion exchange which had been made up to that point and derived the first
-formal mathematical law describing ion exchange reaction kinetics in a distinct manner (compared to the contemporary treatment of chemical equilbria) (\ref{eq:4}).
-where $F$ = Fractional exhaustion, $r$ = radius of ion exchange particle, $D_i$ = interdiffusion coefficent of the system and t = time (seconds).
-\begin{equation}
-F = 1 - \frac{6}{\pi^2} \sum^\infty_1 \frac{1}{n^2}e^{-D_i\pi^2n^2tr^{-2}}\label{eq:4}
-\end{equation}
-
-Boyd formulated his kinetic model of ion exchange in terms of a spherical geometry. This was beneficial for two reasons; simplification of measurement and analysis in addition to matching the geometry of ion exchange beads seen in commercial settings. For these reasons spherical geometry
-often remains a standard assumption when kinetic studies are being performed.
-The standard practice for elucidation of the diffusion coefficient of ions undergoing exchange was originally 
-\begin{figure}[h]
-	\vs{2cm}
-	\centering\includegraphics[width=.5\textwidth]{images/theoreticalF}
-	\caption{Example of a theoretical ion exchange profile plotted from \ref{eq:4} radius of 1.25mm
-		Diffusion coefficients: $1\times10^{-12}m^2s^{-1}$ (left) $7\times10^{-11}m^2s^{-1}$ (right) } 
-	\label{fig:theoreticalF}
-\end{figure}
-
-The diffusion coefficient can be extracted from a F vs t curve by noting that if the diffusion coefficient is assumed to be constant (i.e. $\frac{\delta D_i}{\delta C}=0$) then equation \ref{eq:4} can be written as:
-
-\begin{equation}
-F = 1 - \frac{6}{\pi^2}\sum^{\infty}_{1}\frac{1}{n^2}e^{-n^2Bt}\label{eq:5}
-\end{equation}
-where $B=\frac{D_i\pi^2}{r^2}$
-F can then be expressed as a function of Bt (with the form of the expression varying to accommodate changes in the significance of terms)
-\begin{equation}
-	F = 1 - \frac{6}{\pi^2}e^-{Bt}\ at\ high\ F\ and\ F = \frac{6}{\pi^{\frac{3}{2}}}\sqrt{Bt} - \frac{3}{\pi^2}(Bt)\ at\ low\ F\label{eq:6}
-\end{equation}
-
-We can see from \ref{eq:6} that incorrect measurements of the particle size will cause an apparent reduction in the diffusion coefficient. 
-
-\subsubsection{Beyond Fick}
-A notable omission in Boyd's work is an explicit consideration of the coulombic forces arising in the system due to the movement of charged particles. While this apparently does not diminish the power of Boyds formulae to explain ion exchange data, it is not consistent with other known behaviours of ion exchange resins. Specifically, the initial reaction velocity for an ion exchange reaction is in many cases dependent on the form the resin is in at the start of the reaction. Boyd's model cannot help us in explaining this phenomenon. 
-
-This disparity in reaction rate can be explained by reference to the coulombic interaction of the exchanging ions and the fact that overall the system remains neutral, precluding any net charge flow. The logical conclusion from these statements is the velocity of ion ingress must exactly match that of ion egress at all times during the reaction. We know from standard chromatographic theory that a species travelling through an adsorbent phase to which it is strongly attracted will take longer to traverse that phase than if weak interactions prevailed. The same phenomenon is at work during an ion exchange reaction, and in the absence of a concentration gradient would be important in determining the drift velocity of an ion.
-
-When two ions of like charge and significantly different mobilities are undergoing ion exchange, the velocity of one ion will influence the velocity of the other. A rapidly diffusing ion will be retarded by a slow moving one and vice versa; hence the velocity of exchange is dependant on the interaction between the ions. An oft used analogy for the phenomenon of differential ionic mobility is that of politicians moving through a crowd: the more popular (i.e. strongly interacting) individuals will tend to move slowly through the crowd while an unpopular individual might prefer to make haste. If we extend this analogy to a meeting hall in which only a certain number of politicians are permitted to reside at any one time, we find that slow moving individuals are encouraged to speed up to accommodate the wishes of their less popular colleagues while the fast-movers are prevented from leaving the hall at a sprint to keep the numbers balanced.
-
-The mathematical formalism describing this situation was developed by Hellferich and co-workers in the 1950s:
-
-\begin{equation}
-J_i = -D_i[\nabla C_i + \zeta_i C_i(\frac{F}{RT})\nabla\rho]\label{eq:7}
-\end{equation}
-\begin{equation}
-\sum \zeta_i C_i = resin\ capacity\ \label{eq:8}
-\end{equation}
-\begin{equation}
-\sum \zeta_iJ_I = 0\label{eq:9}
-\end{equation}
-\begin{equation}
-J_A = [\frac{\Pi D_i(\sum \zeta_i^2C_i)}{\sum D_i\zeta_i^2C_i}\nabla C_A]\label{eq:10}
-\end{equation}
-
-Where $J_i$ is the net flux of ion i, $D_i$ is the self-diffusion coefficent for ion i, $\nabla C_i$ is the concentration gradient in three dimensions (i.e. $\nabla C_i = I\frac{\delta C}{\delta x}+J\frac{\delta C }{\delta y}+K\frac{\delta C}{\delta z}$), $\zeta_i$ is the charge on ion i, $F$ is Faraday's constant, $R$ is the gas constant, $\nabla \rho$ is the electric potential field strength in three dimensions \\ (i.e. $\nabla \rho = I\frac{\delta rho}{\delta x}+J\frac{\delta rho }{\delta y}+K\frac{\delta rho}{\delta z}$)
-
-The fractional rate of equilibrium is described by the same equation given by Boyd \ref{eq:4} but does not permit isolation of the diffusion coefficient in the same manner: instead Hellferich provides the following numerical estimation for values of equation \ref{eq:10}:
-
-\begin{equation}
-F(t) = \sqrt{1-e^{\pi^2f_1(\alpha)t + f_2(\alpha)t^2 + f_3(\alpha)t^3}}\label{eq:11}
-\end{equation}
-Where $f1 - f3$ are estimable coefficients, and $\alpha = \frac{D_A}{D_B}$ i.e. the ratio of the interdiffusion coefficients of the ions undergoing exchange.
+%
+%\subsubsection{Fick's law}
+%\begin{equation}
+%J = -\frac{\delta\phi}{\delta x}\label{eq:2}
+%test
+%\end{equation}
+%\begin{equation}
+%\frac{\delta\phi}{\delta t} = -D\frac{\delta^2\phi}{\delta x^2}\label{eq:3}
+%\end{equation}
+%
+%Fick, based upon Fourier's seminal treatment on the transport of heat across temperature gradients, explained the phenomenon of the diffusion of matter via Fick's first (eq \ref{eq:2}) and second (eq \ref{eq:3}) laws.
+%
+%Fick's second law, describes how the concentration of a diffusing substances changes over time. In the 1940s, Boyd brought together the observations of ion exchange which had been made up to that point and derived the first
+%formal mathematical law describing ion exchange reaction kinetics in a distinct manner (compared to the contemporary treatment of chemical equilbria) (\ref{eq:4}).
+%where $F$ = Fractional exhaustion, $r$ = radius of ion exchange particle, $D_i$ = interdiffusion coefficent of the system and t = time (seconds).
+%\begin{equation}
+%F = 1 - \frac{6}{\pi^2} \sum^\infty_1 \frac{1}{n^2}e^{-D_i\pi^2n^2tr^{-2}}\label{eq:4}
+%\end{equation}
+%
+%Boyd formulated his kinetic model of ion exchange in terms of a spherical geometry. This was beneficial for two reasons; simplification of measurement and analysis in addition to matching the geometry of ion exchange beads seen in commercial settings. For these reasons spherical geometry
+%often remains a standard assumption when kinetic studies are being performed.
+%The standard practice for elucidation of the diffusion coefficient of ions undergoing exchange was originally 
+%\begin{figure}[h]
+%	\vs{2cm}
+%	\centering\includegraphics[width=.5\textwidth]{images/theoreticalF}
+%	\caption{Example of a theoretical ion exchange profile plotted from \ref{eq:4} radius of 1.25mm
+%		Diffusion coefficients: $1\times10^{-12}m^2s^{-1}$ (left) $7\times10^{-11}m^2s^{-1}$ (right) } 
+%	\label{fig:theoreticalF}
+%\end{figure}
+%
+%The diffusion coefficient can be extracted from a F vs t curve by noting that if the diffusion coefficient is assumed to be constant (i.e. $\frac{\delta D_i}{\delta C}=0$) then equation \ref{eq:4} can be written as:
+%
+%\begin{equation}
+%F = 1 - \frac{6}{\pi^2}\sum^{\infty}_{1}\frac{1}{n^2}e^{-n^2Bt}\label{eq:5}
+%\end{equation}
+%where $B=\frac{D_i\pi^2}{r^2}$
+%F can then be expressed as a function of Bt (with the form of the expression varying to accommodate changes in the significance of terms)
+%\begin{equation}
+%	F = 1 - \frac{6}{\pi^2}e^-{Bt}\ at\ high\ F\ and\ F = \frac{6}{\pi^{\frac{3}{2}}}\sqrt{Bt} - \frac{3}{\pi^2}(Bt)\ at\ low\ F\label{eq:6}
+%\end{equation}
+%
+%We can see from \ref{eq:6} that incorrect measurements of the particle size will cause an apparent reduction in the diffusion coefficient. 
+%
+%\subsubsection{Beyond Fick}
+%A notable omission in Boyd's work is an explicit consideration of the coulombic forces arising in the system due to the movement of charged particles. While this apparently does not diminish the power of Boyds formulae to explain ion exchange data, it is not consistent with other known behaviours of ion exchange resins. Specifically, the initial reaction velocity for an ion exchange reaction is in many cases dependent on the form the resin is in at the start of the reaction. Boyd's model cannot help us in explaining this phenomenon. 
+%
+%This disparity in reaction rate can be explained by reference to the coulombic interaction of the exchanging ions and the fact that overall the system remains neutral, precluding any net charge flow. The logical conclusion from these statements is the velocity of ion ingress must exactly match that of ion egress at all times during the reaction. We know from standard chromatographic theory that a species travelling through an adsorbent phase to which it is strongly attracted will take longer to traverse that phase than if weak interactions prevailed. The same phenomenon is at work during an ion exchange reaction, and in the absence of a concentration gradient would be important in determining the drift velocity of an ion.
+%
+%When two ions of like charge and significantly different mobilities are undergoing ion exchange, the velocity of one ion will influence the velocity of the other. A rapidly diffusing ion will be retarded by a slow moving one and vice versa; hence the velocity of exchange is dependant on the interaction between the ions. An oft used analogy for the phenomenon of differential ionic mobility is that of politicians moving through a crowd: the more popular (i.e. strongly interacting) individuals will tend to move slowly through the crowd while an unpopular individual might prefer to make haste. If we extend this analogy to a meeting hall in which only a certain number of politicians are permitted to reside at any one time, we find that slow moving individuals are encouraged to speed up to accommodate the wishes of their less popular colleagues while the fast-movers are prevented from leaving the hall at a sprint to keep the numbers balanced.
+%
+%The mathematical formalism describing this situation was developed by Hellferich and co-workers in the 1950s:
+%
+%\begin{equation}
+%J_i = -D_i[\nabla C_i + \zeta_i C_i(\frac{F}{RT})\nabla\rho]\label{eq:7}
+%\end{equation}
+%\begin{equation}
+%\sum \zeta_i C_i = resin\ capacity\ \label{eq:8}
+%\end{equation}
+%\begin{equation}
+%\sum \zeta_iJ_I = 0\label{eq:9}
+%\end{equation}
+%\begin{equation}
+%J_A = [\frac{\Pi D_i(\sum \zeta_i^2C_i)}{\sum D_i\zeta_i^2C_i}\nabla C_A]\label{eq:10}
+%\end{equation}
+%
+%Where $J_i$ is the net flux of ion i, $D_i$ is the self-diffusion coefficent for ion i, $\nabla C_i$ is the concentration gradient in three dimensions (i.e. $\nabla C_i = I\frac{\delta C}{\delta x}+J\frac{\delta C }{\delta y}+K\frac{\delta C}{\delta z}$), $\zeta_i$ is the charge on ion i, $F$ is Faraday's constant, $R$ is the gas constant, $\nabla \rho$ is the electric potential field strength in three dimensions \\ (i.e. $\nabla \rho = I\frac{\delta rho}{\delta x}+J\frac{\delta rho }{\delta y}+K\frac{\delta rho}{\delta z}$)
+%
+%The fractional rate of equilibrium is described by the same equation given by Boyd \ref{eq:4} but does not permit isolation of the diffusion coefficient in the same manner: instead Hellferich provides the following numerical estimation for values of equation \ref{eq:10}:
+%
+%\begin{equation}
+%F(t) = \sqrt{1-e^{\pi^2f_1(\alpha)t + f_2(\alpha)t^2 + f_3(\alpha)t^3}}\label{eq:11}
+%\end{equation}
+%Where $f1 - f3$ are estimable coefficients, and $\alpha = \frac{D_A}{D_B}$ i.e. the ratio of the interdiffusion coefficients of the ions undergoing exchange.
 
 \subsection{Measuring Ion Exchange Kinetics}
-For a reaction of the type depicted in figure \ref{fig:ion_ex}, if the ion exchange particle is insoluble then there are two general strategies which can be used to follow the reaction and a number of different approaches within each strategy. One can either measure the concentration of analytes inside a sample of ion exchange beads over a number of discrete time periods to follow the reaction or continously measure the concentration of analytes in the external electrolyte solution. Both strategies have positive and negative aspects:
+Boyd proposed the following set of equations for the ion exchange reactions (table \ref{tab:boydeq}).
 
+\ErrorsOff* 
+\begin{table}[!hbtp]
+	\centering
+	\captionsetup{justification=centering}	
+	\caption{\footnotesize Equations describing the ion exchange reaction as stated by Boyd\cite{boyd}.$D^i$ = Inter-diffusion coefficient, $F$ = Fractional approach to equilibrium, $r_0$ = ion exchange particle radius, $\Delta r_0$ = thickness of the Nernst layer, $t$ = time.}
+	\begin{tabular}{l  l}\hline
+		\textbf{Description}&\textbf{Model} \\ \hline
+		Film diffusion in&$F = 1 - \frac{6}{\pi^2}\sum_{n=1}^{\infty}\frac{1}{n^2}e^(-\frac{D^{i}\pi^2n^2t}{r^2_0})$ \\
+		a sphere & \\
+		Film diffusion in&$F = 1 - \frac{8}{\pi^2}\sum_{n=1}^{\infty}\frac{1}{(2n - 1)^2}e^{[-(2n - 1)^2\frac{\pi^2D^it}{4x^2_0}]}$ \\
+		a polymer slab & \\
+		Diffusion through the & $log(1 - F)= -(\frac{[\frac{3D^i}{r_0(\Delta r_0) \kappa}]}{2.303})t$\\
+		Nernst Layer & \\ \hline
+	\end{tabular}\label{tab:boydeq}
+	
+\end{table}
+\ErrorsOn
+
+Thus measurement of the extent to which ion exchange reactions have reached equilibrium will permit estimation of the inter-diffusion coefficients for the ion exchange reactions on the involved resin systems. The fractional approach to equilibrium can be monitored by following the ionic composition of the bulk solution or the ion exchange resin; the advantages and disadvantages of each approach are summed up in table \ref{tab:ionicmeasurement}
 \twocolumn[\begin{@twocolumnfalse}
 	\begin{center}
 	\captionof{table}{Both strategies for studying ion exchange reactions have benefits and drawbacks}
@@ -407,21 +427,20 @@ For a reaction of the type depicted in figure \ref{fig:ion_ex}, if the ion excha
 		Bulk electrolyte monitoring & Compatible with industrial practice & Requires complicated experiment \\
 		                            & Very precise and accurate & Ambiguity about effect of column flow dynamics \\
 	                                & Easily fits required constraints & May require sample preconcentration\\
-	    \hline
+	    \hline 
 	    Particle content monitoring & Less complicated instrumentation & Requires many distinct observations \\
 	                                & No sample preconcentration required & Incompatible with industrial practice \\
 	     
 
 		\hline
-	\end{tabular*}
+	\end{tabular*}\label{tab:ionicmeasurement}
 	\vs{1cm}
 	\end{center}
 \end{@twocolumnfalse}
 ]
 
-Where possible, the best approach is of course to combine particle composition analysis with electrolyte composition analysis to come up with a comprehensive trace of the concentrations of the various analytes throughout the reaciton. However where this is not possible, one can still deduce the concentration profile of the unmeasured as the velocity of ingress and egress are identical (eq. \ref{eq:9}).
+Where possible, the best approach is of course to combine particle composition analysis with electrolyte composition analysis to come up with a comprehensive trace of the concentrations of the various analytes throughout the reaction. However where this is not possible, one can still deduce the concentration profile of the unmeasured as the velocity of ingress and egress are identical.
 
-Mathematically it is possible to derive the fractional approach to equilbrium (F) while possesing knowledge of four things: the time at which a measurement is taken, the particle radius, the concentration of a selected analyte in the phase of interest and the expected limiting value of that analyte in that phase. However, where possible secondary confirmation should be sought rather than relying on untested assumptions about the system.
 
 
 To study the ion exchange process a number of steps must be carried out:
