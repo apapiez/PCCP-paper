@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.9)  22 DEC 2016 01:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.9)  22 DEC 2016 20:54
 entering extended mode
 **rsc_art.tex
 (L:\PCCP-paper\rsc_art.tex
@@ -1055,17 +1055,50 @@ File: head_foot/LF.pdf Graphic file (type pdf)
 Package pdftex.def Info: head_foot/LF.pdf used on input line 650.
 (pdftex.def)             Requested size: 173.26239pt x 9.0pt.
  [6 <L:/PCCP-paper/images/TMAC_WATER_MALEIC_NMR.PNG>]
-(L:\PCCP-paper\rsc_art.bbl) 
-AED: lastpage setting LastPage
+<images/SEXP_width.png, id=140, 502.12593pt x 295.1025pt>
+File: images/SEXP_width.png Graphic file (type png)
+
+<use images/SEXP_width.png>
+Package pdftex.def Info: images/SEXP_width.png used on input line 681.
+(pdftex.def)             Requested size: 253.88737pt x 149.21245pt.
+
+<images/Gaussian_SNR.png, id=141, 312.41719pt x 204.765pt>
+File: images/Gaussian_SNR.png Graphic file (type png)
+
+<use images/Gaussian_SNR.png>
+Package pdftex.def Info: images/Gaussian_SNR.png used on input line 688.
+(pdftex.def)             Requested size: 253.88737pt x 166.40863pt.
+
+<images/sexp_gaussian_comparison.png, id=142, 429.85594pt x 251.43938pt>
+File: images/sexp_gaussian_comparison.png Graphic file (type png)
+
+<use images/sexp_gaussian_comparison.png>
+Package pdftex.def Info: images/sexp_gaussian_comparison.png used on input line
+ 697.
+(pdftex.def)             Requested size: 253.88737pt x 148.50908pt.
 File: head_foot/LF.pdf Graphic file (type pdf)
-<use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf used on input line 668.
+ <use head_foot/LF.pdf>
+Package pdftex.def Info: head_foot/LF.pdf used on input line 702.
 (pdftex.def)             Requested size: 173.26239pt x 9.0pt.
 File: head_foot/RF.pdf Graphic file (type pdf)
- <use head_foot/RF.pdf>
-Package pdftex.def Info: head_foot/RF.pdf used on input line 668.
+
+<use head_foot/RF.pdf>
+Package pdftex.def Info: head_foot/RF.pdf used on input line 702.
 (pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
- [7
+ [7 <L:/PCCP-paper/images/SEXP_width.png> <L:/PCCP-paper/images/Gaussian_SNR.pn
+g> <L:/PCCP-paper/images/sexp_gaussian_comparison.png>]
+(L:\PCCP-paper\rsc_art.bbl) 
+AED: lastpage setting LastPage
+File: head_foot/RF.pdf Graphic file (type pdf)
+<use head_foot/RF.pdf>
+Package pdftex.def Info: head_foot/RF.pdf used on input line 737.
+(pdftex.def)             Requested size: 90.4577pt x 7.46786pt.
+File: head_foot/LF.pdf Graphic file (type pdf)
+ <use head_foot/LF.pdf>
+Package pdftex.def Info: head_foot/LF.pdf used on input line 737.
+(pdftex.def)             Requested size: 173.26239pt x 9.0pt.
+ [8
+
 
 ] (L:\PCCP-paper\rsc_art.aux)
 
@@ -1073,11 +1106,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15536 strings out of 493921
- 282619 string characters out of 3152899
- 357143 words of memory out of 3000000
- 18531 multiletter control sequences out of 15000+200000
- 109933 words of font info for 161 fonts, out of 3000000 for 9000
+ 15559 strings out of 493921
+ 283165 string characters out of 3152899
+ 357191 words of memory out of 3000000
+ 18549 multiletter control sequences out of 15000+200000
+ 110355 words of font info for 163 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  42i,15n,46p,10422b,454s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Users/
@@ -1096,9 +1129,9 @@ iles (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86
 onts/type1/urw/symbol/usyr.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/u
 rw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/ut
 mri8a.pfb>
-Output written on rsc_art.pdf (7 pages, 1360108 bytes).
+Output written on rsc_art.pdf (8 pages, 1392595 bytes).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
+ 200 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

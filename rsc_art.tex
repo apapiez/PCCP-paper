@@ -646,7 +646,76 @@ Maleic acid was selected as the quantitative internal standard for QNMR experime
 	\includegraphics[width=.4\textwidth]{images/TMAC_WATER_MALEIC_NMR.PNG}\label{fig:TMAC_WATER_MALEIC_NMR}
 \end{figure}
 
-In order to achieve a sufficient signal to noise ratio for the expected lowest analyte concentrations ($\approx$ 10ppm), two approaches were examined.
+In order to achieve a sufficient signal to noise ratio for the expected lowest analyte concentrations ($\approx$ 10ppm), two approaches were examined; the use of high field instruments to increase sensitivity and optimization of the NMR data processing procedure in order to optimize the signal to noise ratio.
+
+In order to investigate the effect of increasing the instrumental magnetic field strength on the quality of the NMR spectra, a calibration curve was prepared using the Bruker Avance III HD 700 MHz in the NMR department of Newcastle university. The spectra of didecyldimethylammonium chloride solutions in D$_2$O were collected on both instruments and the spectra compared. The higher field instrument permitted a considerable improvement in spectra sensitivity, yielding an 8 fold improvement in signal to noise ratio (50:400) for a 10 fold reduction in experiment time. While this increased sensitivity of the higher field instrument was appropriate for quantitative analysis of the quats under investigation, it was desirable to find a method which could permit quantitative analysis on the in-faculty NMR instrument equipped with a 400MHz magnet. Therefore attention was turned to optimizing the steps used to process the collected NMR data.
+
+\paragraph{Data processing}\hspace{0cm}\\
+Two data processing steps were identified for their effect of the signal to noise ratio of the processed spectrum: Application of a window function (also known as adopoziation) and Zerofilling interpolation. 
+
+Two window functions were investigated for their effect on the signal to noise ratio of the final spectrum: Single-exponential (SEXP, equation \ref{eq:sexp}) and Gaussian (equation \ref{eq:gauss}).
+
+\begin{figure}[!hbtp]
+	\vspace{-0.2cm}
+	
+	\begin{equation}
+	I_t=I_{t=0}e^{-\alpha t}\label{eq:sexp}
+	\end{equation}
+	
+	\vspace{-0.2cm}
+	
+
+	
+	\begin{equation}
+	I_t = ae^{-\frac{t - b}{2c^2}}\label{eq:gauss}
+	\end{equation}
+	
+	\vspace{-0.2cm}	
+
+\end{figure}
+
+Figure \ref{fig:SEXP_width} shows the effect of applying SEXP functions of varying widths on the signal to noise ratio of processed DDDMAC solution NMR spectra.
+
+\begin{figure}[!htpb]
+	\caption{\footnotesize The effect of increasing SEXP widths on the signal to noise ratio of $^1$H NMR spectra of aqueous DDDMAC solutions}
+	\includegraphics[width=.48\textwidth]{images/SEXP_width}\label{fig:SEXP_width}
+\end{figure}
+
+Increasing the width of the function resulted in increasing signal to noise ratios in all cases; the factor by which the SNR was increased was approximately the same in all cases, yielding greater absolute increases in the SNR for more concentrated solutions. Figure \ref{fig:Gaussian_SNR} shows the effect of Gaussian window functions of various widths on the SNR of collected spectra.
+
+\begin{figure}[!htbp]
+	\caption{\footnotesize The effect of increasing Gaussian widths on the signal to noise ratio of $^1$H NMR spectra of aqueous DDDMAC solutions}
+	\includegraphics[width=.48\textwidth]{images/Gaussian_SNR}\label{fig:Gaussian_SNR}
+\end{figure}
+
+As with a SEXP window function, Gaussian functions of increasing widths lead to improvements in the SNR of collected spectra in all cases. The anomalous recorded SNR for the 40 ppm spectra is due to experimental error. Figure \ref{fig:sexp_gaussian_comparison} shows a side by side comparison of the effect of SEXP and Gaussian functions. Both functions yielded very similar increases in the SNR for the recorded spectra, with slightly better performance shown for the Gaussian function at high function widths. 
+
+
+
+\begin{figure}[!htbp]
+	\caption{\footnotesize A comparison of the SNR of spectra of 50ppm DDDMAC solutions after applying SEXP and Gaussian functions}
+	\includegraphics[width=.48\textwidth]{images/sexp_gaussian_comparison}\label{fig:sexp_gaussian_comparison}
+\end{figure}
+
+Table \ref{tab:diamcomparison} shows the effect of both function types on the analyte peak diameter. Gaussian functions resulted in increased peak broadening compared to SEXP functions. For this reason it was decided that a SEXP function of width 8Hz would be most effective.
+
+\twocolumn[\begin{@twocolumnfalse}
+\begin{center}
+	\captionof{table}{\footnotesize A comparison of the increase in peak diameters for increasing SEXP and Gaussian function widths "*" indicates those diameter changes which are suspect due to SNR limitations}
+	\begin{tabular}{|l|l|l|l|l|l|}\hline
+		\textbf{Concentration} & \textbf{10 ppm} & \textbf{20 ppm} & \textbf{30 ppm} & \textbf{40 ppm} & \textbf{50 ppm} \\ \hline
+		\textbf{\% change SEXP} &40*&*8&4*&25&12 \\ \hline
+		\textbf{\% change Gaussian} &5*&22*&47&42&24 \\ \hline		
+	\end{tabular}\label{tab:diamcomparison}
+\end{center}
+\end{@twocolumnfalse}]
+
+
+
+
+
+
+
 
 
 
