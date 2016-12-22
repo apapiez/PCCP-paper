@@ -523,7 +523,7 @@ The selection of concentrations for calibration solutions was based upon the exp
 Once appropriate calibration solutions had been prepared, the response of a flame photometer (Jenway PFP7) was used to produce a calibration curve. Finally, each eluent solution was aspirated and the concentration of each eluent was determined with reference to the calibration curve.
 
 
-\subsection{1: Preparation of calibration solutions}\label{sec:pocs}\hspace{0cm}\\
+\subsection{QNMR analysis}
 
 
 A set of calibration solutions in the range 0-50ppm prepared according to the following procedure. First, didecyldimethylammonium methylcarbonate (25g, 0.062 moles) was placed in a round bottomed  flask and  teflon stirrer bar was added. Concentrated HCl (25ml) was added dropwise  until no more gas was released from the solution. The resulting mixture was concentrated repeatedly under reduced pressure with the addition of toluene to encourage azeotropic evaporation. After no more solvent could be removed from the residue, a small quantity (2.2mg) was dissolved in D$_2$O such that the concentration was 200 ppm with respect to the didecyldimethylammonium cation. 
@@ -532,9 +532,9 @@ A 1000 ppm solution of maleic acid was prepared by dissolving maleic acid (10mg,
 
 A 1000 ppm solution of tetramethylammonium chloride was prepared by dissolving tetramethylammonium chloride (7.4mg, 6.8$\times10^{-5}$ moles) in D$_2$O (10 ml).
 DDDMAC calibration solutions were prepared according to the following table:
-\begin{table}[!htpb]
-	\centering
-	\caption{\footnotesize didecyldimethylammonium chloride NMR calibration solutions were prepared as shown}
+\twocolumn[\begin{@twocolumnfalse}
+	\begin{center}
+	\captionof{table}{\footnotesize Volumes used for the preparation of stock solutions for quantitative NMR spectroscopy}
 	\setlength{\tabcolsep}{0.1pt}
 	\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}\hline
 		Volume 1000ppm  Maleic acid solution ($\mu$L)&Volume 200ppm didecyldimethylammonium solution ($\mu$L)&Volume D$_2$O&	Concentration maleic acid (ppm)&	Concentration didecyldimethylammonium cation (ppm) \\ \hline
@@ -543,8 +543,9 @@ DDDMAC calibration solutions were prepared according to the following table:
 		50&150&800&50&30 \\ 
 		50&200&750&50&40 \\ 
 		50&50&700&50&50 \\ \hline
-	\end{tabular}\label{tab:ddmac_cal_rec}	
-\end{table}
+	\end{tabular}\label{tab:ddmac_cal_rec}
+	\end{center}
+\end{@twocolumnfalse}]
 
 TMAC calibration solutions were prepared in a similar fashion with the exception that the volume (in microlitres) of 1000 ppm TMAC solution used to prepare a sample is identical to the desired concentration of TMAC in ppm.
 
@@ -560,7 +561,7 @@ NMR spectra of each calibration solution was then obtained using the following i
 \end{itemize}
 Following the completion of each experiment the FID was subjected to a number of different data processing techniques to find the optimal combination of pre and post transform modifications for optimizing the signal to noise ratio of the spectra without compromising peak shape. Two window functions (single exponential and gaussian) were compared to evaluate their effect on the SNR and peak shape, while the effect of zerofilling was also assessed
 
-\paragraph{Procedure for the evaluation of a window function - Part 1: Single exponential}\hspace{0cm}\\
+\subsection{Procedure for the evaluation of a window function - Part 1: Single exponential}\hspace{0cm}\\
 Following the aquisition of the sample spectrum, the FID trace is opened in JEOL Delta. The following processing list is applied to the FID:
 \begin{enumerate}
 	\item DC balance
@@ -575,38 +576,77 @@ Following the aquisition of the sample spectrum, the FID trace is opened in JEOL
 The width of the single exponential function was varied from 0.2 to 8 Hz. After each processing list was applied the analyte:standard peak ratios were measured. Two analyte signals were observed (0.6-0.8ppm and 1.0-1.2ppm) while the standard signal appeared at 5.8ppm. Peak integration was accomplished using the automated function of Delta. The signal to noise ratio was assessed using the Signal to Noise analysis tool(Analyze $>$ Signal to Noise Calculator). Signal regions were the analyte regions previously described while the noise region was taken to be 0-0.2ppm.
 Peak broadness was assessed by monitoring the peak diameter as reported by Delta (Main-screen $>$ File-information $>$ Peak-tab). 
 
+The procedure for the investigation of the various T$_1$ relaxation times in an aqueous sample is as follows. 
 
-\subsection{Assesment of [Na+] by Flame Photometry}
-\subsubsection{1: Preparation of a calibration curve}
-Some representitive samples are taken from the set to be analyezed: Ideally these should be the samples expected to represent the highest and lowest concentrations of analyte in the data set. The response of the flame photometer to these samples, as compared to a 1000 ppm standard solution is used to estimate the appropriate calibration range for the experiment. Typically for AG50WX8 resins this concentration range will be from 0 - 100 ppm Na+.
+DDMAC calibration solutions were prepared according to \ref{tab:ddmac_cal_rec}. Subsequently the inversion recovery experiment was performed for each sample using the following instrument configuration:
 
-\subsubsection{2: Analysis of samples}
-Samples are aspirated in the following manner: Each sample is aspirated 3 times, following the third measurment of a sample the highest calibrant and the blank are reaspirated to ensure stability of the scale.
-All flame photometry work was conducted on a Jenway 2000 Natural gas flame photometer.
- 
+\begin{itemize}
+	\item Instrument: JEOL ECS-400 NMR
+	\item Field strength: 9T (400MHz)
+	\item Relaxation time (T1): 7 seconds
+	\item Tau delays: 0.2, 0.4, ,1, 2 and 6 seconds
+	\item Acquisition period: 2 seconds
+	\item 90 degree pulse width
+	\item 180 degree pulse width
+	\item Number of scans: 256
+	\item Spin: off
+\end{itemize}
 
-\subsection{Quantitative NMR spectroscopy}
-All NMR spectra were recorded on a JEOL 400 ECS NMR spectometer, operating at a Magnetic field strength of 9 Tesla (400 MHz).
+FID data was processed in the following fashion: 
 
-\subsubsection{Preparation of a calibration curve}
-In all cases, Maleic acid was used as the quantitative NMR standard. Calibration curves for the analysis of tetramethylammonium chloride will be used as a representitive example. 
-A solution of 1000 ppm Maleic acid in D$_2$O is prepared by dissolving 1 mg maleic acid per ml of D$_2$O. A solution of 1000 ppm tetramethylammonium chloride is made up by dissolving 7.4 mg tetramethylammonium chloride per ml of D$_2$O volumetrically.
+\begin{enumerate}
+	\item DC balance
+	\item Single exponential window function, width = 8Hz
+	\item Zerofill (8 times)
+	\item Fast Fourier Transform
+	\item Machinephase
+	\item Manual 180$^o$ phase shift
+	\item scale-ppm
+	\item baseline correct
+	\item Sub-set (isolate desired signal)
+\end{enumerate}
 
-The total volume of the solution in the NMR sample tube is set at 1ml. At this volume 1$\mu$l of stock solution per 1000$\mu$l corresponds to 1ppm of sample. 
+Following data processing, the Fourier Transform subset is opened in the Delta Curve-Analysis tool (Analyse > Curve Analysis) and the T$_1$ relaxation time was calculated using a non-linear inversion recovery curve fitting algorithm.
 
-Calibrant solutions are made up such that each solution has a maleic acid concentration of 50 ppm, while the concentration of the tetramethylammonium chloride varies from 10-50ppm. 
+\subsection{Analysis of resin Quat contents by QNMR}
+Calibration solutions are prepared as previously described.
+Quaternary ammonium compounds were extracted from extracted from ion exchange particles in the following manner. Beads were subjected to the extraction procedure previously described for the extraction of sodium from ion exchange resins  A 1ml aliquot of each resulting eluent solution was lyophilized to remove the HCl and H$_2$O. Residues were taken for $^1$H NMR analysis, each sample was spiked with 50ml 1000 ppm maleic acid solution and the total sample volume was made up to 1ml with D$_2$O.
 
-Collection of NMR spectra is conducted with a view to maximizing the signal to noise ratio for the spectrum. Ideally the signal to noise rati should be 50:1. Signal to noise ratio is improved by increasing the number of scans obtained for a sample.
 
 \subsection{Photographic particle size analysis}
-\subsubsection{Calibration of the scale}
-The camera is suspended over the high contrast background and the scale card is placed on the backing. A photograph of this scale is taken at the level of focus which will be used for photographic particle samples. From this image a scale can be derived (pixels/mm) allowing determination of particle sizes
-\subsubsection{Particle size analysis}
-Two cameras were used in the analysis of particle sizes, one USB microscope and one "smaart phone" camera. These two devices provided different levels of zoom permitting particles of different sizes to be analyzed. The method of sample analysis was the same regardless of camera. A sample of ion exchnage particle is deposited on the High contrast background. Some sample manipulation takes place in order to separate (as far is as possible) beads from one another to permit clean detetction of outlines. Several photographs of each sample are taken.
+Photographs were recorded using a Samsung SM-G900F smart phone camera.
+The analysis of the particle size distribution of protonated AG50W-X8 beads shall be taken as an example.
+
+The base of a flat Petri dish was covered with black card. Upon this card was placed a laminated scale which was photographed in order to permit later reconstruction of particle dimensions from recorded pixel values. A small quantity (<0.1g) of protonated ion exchange resin was placed on the black card; aggregated particles were separated where possible using a wooden boiling stick. The particles were photographed, the camera being maintained in the same position from which the photograph of the scale was obtained. After each photograph was taken, the sampled particles were set aside and a new set of particles were photographed in the same fashion. The recorded images were processed using ImageJ to determine the average particle radius (radius of the equivalent sphere).
 
 \section{Results and Discussion}
+\subsection{Particle size distributions}
+Boyd's laws for ion exchange require that the radius of the ion exchange particles under investigation be known. In order to simplify the procedure, it was assumed that samples contained spherical particles with a range of radii which could be described by an average radius $r_0$. Mesh fractions proved to be insufficient descriptors of the particle sizes due to swelling of the particles and the presence of aggregates preventing efficient separation. The fragility of acrylamide co-polymer particles meant that an analytical method was required which would create the minimum risk of bead destruction during analysis. This was necessary because damaged particles would have radii not representative of the particles involved in ion exchange experiments. Thus a method was developed in which photographs of ion exchange particles were analysed in order to extract information about the particle sizes. 
 
+\begin{table}[!htpb]
+	\centering
+	\caption{\footnotesize Measured radii of ion exchange particles in the protonated form}
+	\begin{tabular}{l l l}\hline
+		Co-polymer type & Radius (mm) & Standard deviation (mm) \\ \hline
+		AG50W-X8 & 0.41 & 0.09 \\
+		AMPS/Acrylamide & 1.5 & 0.3 \\
+		NA2MA/Acrylamide & 1.8 & 0.5 \\ \hline 
+	\end{tabular}
+\end{table}
 
+The developed method proved satisfactory for the analysis of particle sizes. The measured standard deviation in the radius of acrylamide co-polymer particles was fairly large, and contributed significantly to uncertainty in the calculated inter-diffusion coefficients. 
+
+\subsection{QNMR method development}
+QNMR was investigated for the quantitative analysis of tetramethylammonium chloride and didecyldimethylammonium chloride in order that the fractional approach to equilibrium of an ion exchange reaction could be monitored. NMR spectra intended for use in quantitative analysis must show good sensitivity (signal to noise ratio of at least 50:1 for analyte and standard peaks) and enough peak separation to ensure unambiguous quantitation may be carried out.
+
+Maleic acid was selected as the quantitative internal standard for QNMR experiments as it gives rise to a single peak at a chemical shift which ensured that it could always be integrated in an unambiguous fashion ($\delta$ 6.2 s (2 x HOOC-C\underline{H}=CH-COOH, 2H))(see figure \ref{fig:TMAC_WATER_MALEIC_NMR}).
+\begin{figure}[!htbp]
+	\centering
+	\caption{\footnotesize The NMR spectrum of TMAC and Maleic acid in D$_2$O}
+	\includegraphics[width=.4\textwidth]{images/TMAC_WATER_MALEIC_NMR.PNG}\label{fig:TMAC_WATER_MALEIC_NMR}
+\end{figure}
+
+In order to achieve a sufficient signal to noise ratio for the expected lowest analyte concentrations ($\approx$ 10ppm), two approaches were examined.
 
 
 
